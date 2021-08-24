@@ -2,3 +2,13 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho{
+    background-color: green;
+    color: wheat;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
