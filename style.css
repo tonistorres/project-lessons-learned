@@ -21,6 +21,16 @@ body{
 
 }
 
+#rodape{
+   position: fixed;
+   bottom: 0;
+   color: white;
+   left: 0;
+   margin-bottom: 0px;
+   background-color: green;
+   text-align: center;
+   width: 100%;
+}
 .container-listas{
     display: flex;
     
