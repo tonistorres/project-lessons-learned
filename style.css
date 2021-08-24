@@ -20,3 +20,8 @@ body{
     border-radius: 50%;
 
 }
+
+.container-listas{
+    display: flex;
+    
+}
