@@ -22,11 +22,10 @@ body{
 }
 
 #rodape{
-   position: fixed;
-   bottom: 0;
+
    color: white;
-   left: 0;
-   margin-bottom: 0px;
+   display: inline-block;
+   width: 100%;  
    background-color: green;
    text-align: center;
    width: 100%;
@@ -39,4 +38,15 @@ body{
 .container-listas{
     display: flex;
     
+}
+.conteiner-article{
+font-size: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+display: inline-block;
+width: 400px;
+height: 150px;
+text-align: justify;
+letter-spacing: 2px;
+line-height: 15px;
+
 }
