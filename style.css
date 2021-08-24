@@ -12,3 +12,10 @@ body{
     top: 0;
     width: 100%;
 }
+
+#minha_foto{
+    display: block;
+    margin-top: 95px;
+    margin-left: 10px;
+
+}
