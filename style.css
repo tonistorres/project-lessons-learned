@@ -3,6 +3,21 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
+#titulo-h1{
+
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#sub-title-h2{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+
 #cabecalho{
     background-color: green;
     color: wheat;
@@ -22,13 +37,12 @@ body{
 }
 
 #rodape{
-
-   color: white;
+margin-top: 300px;
+  color: white;
    display: inline-block;
    width: 100%;  
    background-color: green;
    text-align: center;
-   width: 100%;
    font-size: 20px;
    font-weight: 700;
    padding-bottom: 10px;
@@ -40,13 +54,25 @@ body{
     
 }
 .conteiner-article{
+
 font-size: 15px;
 font-family: Georgia, 'Times New Roman', Times, serif;
-display: inline-block;
 width: 400px;
 height: 150px;
 text-align: justify;
 letter-spacing: 2px;
 line-height: 15px;
+
+}
+
+.conteiner-section-para-article{
+display: flex;
+
+width: 400px;
+height: 150px;
+margin: 10px 10px 10px 10px;
+
+
+
 
 }
